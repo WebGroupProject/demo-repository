@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(62, 63, 67, 0.7),rgba(4,9,30,0.7)),
+    url(images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.navigration{
+    padding-left:2% ;
+    padding-top: 1%;
+
+    justify-content: space-between;
+    color: aliceblue;
+    padding-right: 3%;
+}
+.navigration ul{
+    list-style-type:none;
+    display: inline;
+   
+    padding-left: 0%;
+}
+.navigration li{
+    display: inline;
+    padding: 30px;
+}
+.navigration li a{
+    text-decoration: none;
+    color: rgb(245, 245, 241);
+    
+}
+
+.navigration p{
+    float: right;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.navigration li a:hover{
+    color: crimson;
+}
+
+.fa{
+ visibility: hidden;
+}
+.main-ti{
+    width: 90%;
+    color: whitesmoke;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);/*so the center of div*/
+    text-align: center;
+}
+.main-ti a{
+    font-weight: 900;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(235, 165, 130);
+}
+.main-ti h3:hover{
+    color: aliceblue;
+}
+
+.special{
+   align-content: center;
+   padding: 10px 0px;
+   width: 100%;
+   margin-top: 20px;
+    
+}
+.special h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sp-sub{
+    width: 80%;
+    display: flex;
+    padding-left: 8%;
+    
+  justify-content: space-between;
+}
+.it-sp{
+    flex-basis: 50%;
+    padding: 20px;
+    
+}
+.it-sp img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.stu-comment{
+    margin: 100px auto;
+    width:90%;
+    padding-left:10px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+
+}
+.student-sub{
+   padding: 20px 40px 50px 50px;
+   margin-bottom: 20px;
+   background-color: blanchedalmond;
+   flex-basis: 30%;
+   border-radius: 20px;
+   cursor: pointer;
+}
+.student-sub img{
+    width:200px;
+    padding-left: 10px;
+    border-radius: 300px;
+}
+.student-sub:hover{
+    background-color: #664b49;
+    color: whitesmoke;
+
+}
+.connect{
+    border:1px solid #664b49;
+    color: #0e0d0e;
+    margin: 100px auto;
+    text-align: center;
+    width: 80%;
+    padding: 40px 40px ;
+    size: cover;
+    background-image: linear-gradient(rgb(248, 241, 241),rgb(236, 195, 153));
+    border-radius: 10px;
+}
+.connect p{
+    padding-bottom: 20px;
+}
+.connect a{
+    font-weight: 900;
+    margin-top: 20px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    color: #0d0c0c;
+    border:2px solid white ;
+    
+}
+.connect a:hover{
+    background-color: rgb(181, 136, 122);
+    
+}
