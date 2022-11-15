@@ -157,3 +157,119 @@
     background-color: rgb(181, 136, 122);
     
 }
+/*----footer---*/
+
+.FOOTER{
+    width: 100%;
+    text-align:center;
+    padding: 30px 0px;
+    background-color: antiquewhite;
+  
+
+}
+.FOOTER h4{
+   margin-bottom: 25px;
+   margin-top: 20px;
+   font-weight: 600;
+}
+.FOOTER .fa{
+    visibility: visible;
+}
+.icons .fa{
+    color: #f44336;
+    margin: 0em;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+
+@media(max-width:700px){
+.fa{
+    visibility: visible;
+    display: block;
+    background-color: aliceblue;
+    font-size: 10px;
+    cursor: pointer;
+    color: black;
+}
+.navigration{
+    display: inline;
+    padding-top: 1%;
+}
+.navigration ul li{
+    display: block;
+    padding: 2px;
+}
+.you{
+    position:fixed;
+        background: #664b49;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        left: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+}
+.main-ti h3{
+    font-size: medium;
+}
+.new{
+    height: 50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7 ),rgba(4,9,30,0.7 )),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    
+ }
+
+  .course a button{
+    font-weight: 900;
+    width: 30%;
+    font-size: smaller;
+    color: rgb(252, 242, 236);
+    background-color: rgb(16, 15, 15);
+    cursor: pointer;
+}
+.contact-us{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    border: solid #fdf7f6;
+    margin: 0;
+    background-color: bisque;
+    
+}
+.sp-sub{
+    flex-direction: column;
+}
+.it-sp p{
+    font-size: small;
+}
+.stu-comment{
+    flex-direction: column;
+}
+.student-sub{
+    margin: 10px 10px 10px 10px;
+}
+.student-sub img{
+    width:100px;
+}
+.student-sub{
+    flex-basis: 80%;
+    font-size: small;
+}
+.connect{
+    border:1px solid #664b49;
+    color: #0e0d0e;
+    margin-top: 0px;
+    text-align: center;
+    width: 60%;
+    padding: 40px 40px ;
+    size: cover;
+    background-image: linear-gradient(rgb(248, 241, 241),rgb(236, 195, 153));
+    
+}
+}
