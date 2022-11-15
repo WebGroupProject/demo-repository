@@ -130,13 +130,16 @@
 .connect{
     border:1px solid #664b49;
     color: #0e0d0e;
-    margin: 100px auto;
+    margin: 30px auto;
     text-align: center;
     width: 80%;
     padding: 40px 40px ;
     size: cover;
-    background-image: linear-gradient(rgb(248, 241, 241),rgb(236, 195, 153));
+    background-size: cover;
+    background-image:   linear-gradient(rgb(230, 221, 221),rgb(255, 248, 241));
     border-radius: 10px;
+    position: relative;
+    background-position: center;
 }
 .connect p{
     padding-bottom: 20px;
