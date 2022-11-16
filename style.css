@@ -198,10 +198,10 @@
 }
 .navigration ul li{
     display: block;
-    padding: 2px;
+    padding: 20px;
 }
 .you{
-    position:fixed;
+        position:absolute;
         background: #664b49;
         height: 100vh;
         width: 200px;
