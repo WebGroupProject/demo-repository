@@ -273,3 +273,64 @@
     
 }
 }
+/*------------about us---------*/
+.new{
+    height: 30vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7 ),rgba(4,9,30,0.7 )),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    
+ }
+ 
+ .new h2{
+     color: #f8ecec;
+     margin-top: 100px;
+     text-align: center;
+ }
+ .aboutus{
+     text-align: center;
+     position: relative;
+     
+ }
+ table{
+     margin-top: 50px;
+     border: solid palevioletred;
+     margin-left: auto;
+     margin-right: auto;
+     border-collapse: collapse;
+     align-content: center;
+     width: 50%;
+ 
+ }
+  table td{
+     border: solid palevioletred;
+     background-color: bisque;
+     padding: 20px 20px 20px 0;
+     text-align: center;
+ }
+ .aboutus .fa{
+     visibility: visible;
+ }
+ 
+ .aboutus img{
+     width:50%;
+     height: auto;
+     align-self: center;
+     margin: auto;
+     position: relative;
+     padding-top: 40px;
+     padding-bottom: 30px;
+     border-radius: 20px;
+ }
+  
+     
+     
+ 
+ 
+ .aboutus p{
+     text-align: center;
+     font-size: medium;
+     padding-bottom: 100px;
+ }
