@@ -334,3 +334,71 @@
      font-size: medium;
      padding-bottom: 100px;
  }
+
+/*----------------------------couses page--------------------------------*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.courselist{
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.courselist p{
+    color: #f44336;
+}
+.beginner-level{
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    background-color: rgb(240, 213, 188); 
+    justify-content:space-between ;
+}
+
+.beginner-level dd{
+    display: inline block;
+    position:relative;
+    text-align:left;
+    
+}
+.beginner-level dd img{
+    width:40px;
+    justify-content: space-between;
+}
+
+button{
+    font-weight: 900;
+    width: 20%;
+    color: rgb(252, 242, 236);
+    background-color: rgb(16, 15, 15);
+    cursor: pointer;
+}
+
+/*-- adavanced level---*/
+.advanced-level{
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    background-color: rgb(211, 241, 201); 
+    justify-content:space-between ;
+}
+
+.advanced-level dd{
+    display: inline block;
+    position:relative;
+    text-align:left;
+    
+} 
+.advanced-level dd img{
+    width:40px;
+    justify-content: space-between;
+}
+
+button{
+    font-weight: 900;
+    width: 20%;
+    color: rgb(252, 242, 236);
+    background-color: rgb(16, 15, 15);
+    cursor: pointer;
+}
