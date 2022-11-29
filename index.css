@@ -402,3 +402,43 @@ button{
     background-color: rgb(16, 15, 15);
     cursor: pointer;
 }
+/*-----------contacts us--------------*/
+.contact-us{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    border: solid #fdf7f6;
+    margin:20px 30px 50px 40px;
+    background-color: bisque;
+    
+}
+
+.contact-us input {
+    border: solid powderblue;
+    align-content: right;
+    margin-left: 20px;
+}
+.name::after{
+    content: "*";
+    color: #a21616;
+
+}
+#submit{
+    width: 120px;
+    background-color: darkgray;
+    color: aliceblue;
+    cursor: pointer;
+}
+.st-contact{
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px 30px 20px 0;
+    display: block;
+}
+.st-contact a ,.st-contact p{
+   padding: 20px 20px;
+   text-decoration: none; 
+   color:rgb(128, 0, 0)  ;
+   font-weight: 900;
+}
