@@ -335,7 +335,7 @@
      padding-bottom: 100px;
  }
 
-/*----------------------------couses page--------------------------------*/
+/*----------------------------courses page--------------------------------*/
 .course{
     width: 80%;
     margin: auto;
@@ -402,6 +402,15 @@ button{
     background-color: rgb(16, 15, 15);
     cursor: pointer;
 }
+
+.level{
+    border: 1px solid black;
+    background-color: lightblue;
+    padding: 30px 50px 30px 50px;
+    margin-bottom: 10px;
+    justify-content:space-between ;
+}
+
 /*-----------contacts us--------------*/
 .contact-us{
     padding-top: 50px;
